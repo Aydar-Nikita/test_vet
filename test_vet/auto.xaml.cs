@@ -48,6 +48,7 @@ namespace test_vet
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show("учпешно");
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
             this.Close();
